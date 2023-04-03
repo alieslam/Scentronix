@@ -16,7 +16,7 @@ export default function Header() {
         <MenuItem title="ABOUT" address="/about" Icon={AiFillInfoCircle} />
       </div>
       <div className="flex items-center justify-center px-4">
-        {/* <DarkModeSwitch/> */}
+        <DarkModeSwitch/>
       </div>
     </div>
   );
