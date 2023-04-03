@@ -5,7 +5,7 @@ export default function MenuItem({ title, address, Icon }) {
   return (
     <div>
       <Link
-        className="mx-6 lg:mx-6 hover:text-red-900 hover:underline"
+        className="mx-6 lg:mx-6 hover:text-amber-600 hover:underline"
         href={address}
       >
         <Icon className="mx-6 text-2xl sm:hidden" />

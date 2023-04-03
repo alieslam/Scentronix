@@ -8,7 +8,7 @@ import DarkModeSwitch from "./DarkModeSwitch";
 
 export default function Header() {
   return (
-    <div className="flex">
+    <div className="flex justify-center">
       <div className="flex justify-center my-6 sm:mx-auto">
         <MenuItem title="SHOP" address="/" Icon={AiFillShop} />
         <MenuItem title="RECIPES" address="/recipes" Icon={BiFoodMenu} />
