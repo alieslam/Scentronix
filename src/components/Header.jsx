@@ -11,7 +11,7 @@ export default function Header() {
     <div className="flex justify-center">
       <div className="flex justify-center my-6 sm:mx-auto">
         <MenuItem title="SHOP" address="/" Icon={AiFillShop} />
-        <MenuItem title="RECIPES" address="/recipes" Icon={BiFoodMenu} />
+        <MenuItem title="RECIPES" address="/recipes/?recipeNavParam=fetchCategories" Icon={BiFoodMenu} />
         <MenuItem title="BLOG" address="/blog" Icon={AiOutlineRead} />
         <MenuItem title="ABOUT" address="/about" Icon={AiFillInfoCircle} />
       </div>
