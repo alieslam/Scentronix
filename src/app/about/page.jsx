@@ -5,7 +5,7 @@ import healthyFoodPicture from "../../../public/healthyFood.png";
 export default function About() {
   return (
     <div className="max-w-6xl  mx-6 space-y-4 space-x-4">
-      <h1 className="text-1xl text-red-900 font-medium">About</h1>
+      <h1 className="text-1xl font-medium">About</h1>
       <div className="flex items-center justify-center">
       <div className="text-center">
         <Image width={500} height={500} alt="This is a food for pic" src={healthyFoodPicture} />
