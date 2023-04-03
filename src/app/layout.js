@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import './globals.css'
 
 export const metadata = {
-  title: 'Algorithimic Perfumery',
+  title: 'Algorithmic Perfumery',
   description: 'By Scentronix',
 }
 
