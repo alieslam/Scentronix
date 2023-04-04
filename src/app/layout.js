@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import Providers from "./Providers";
+import ResponsiveAppBar from "@/components/AppBar";
 
 export const metadata = {
   title: "Algorithmic Perfumery",
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>
-          <Header />
+          <ResponsiveAppBar/>
           {children}
         </Providers>
       </body>
