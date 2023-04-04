@@ -12,12 +12,14 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import { usePathname } from "next/navigation";
 
 const pages = ["shop", "recipes", "blog", "about"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const pathName = usePathname();
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -27,7 +29,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="sticky" sx={{ height: 100 }}>
+    <AppBar position="sticky" elevation={0} sx={{ height: 100 }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{ my: 2 }}>
           <Typography
@@ -113,28 +115,44 @@ function ResponsiveAppBar() {
                 key={page}
                 href={`/${page === "shop" ? "" : page}`}
                 onClick={handleCloseNavMenu}
-                sx={{
-                  mx: 2,
-                  my: 2,
-                  display: "block",
-                  fontSize: 16,
-                  position: "relative",
-                  "&::before": {
-                    content: '""',
-                    position: "absolute",
-                    bottom: 0,
-                    left: 0,
-                    width: "100%",
-                    height: 2,
-                    backgroundColor: "#8D6E63",
-                    transform: "scaleX(0)",
-                    transformOrigin: "left center",
-                    transition: "transform 0.2s ease-in-out",
+                sx={[
+                  {
+                    mx: 2,
+                    my: 2,
+                    display: "block",
+                    fontSize: 16,
+                    position: "relative",
+                    "&::before": {
+                      content: '""',
+                      position: "absolute",
+                      bottom: 0,
+                      left: 0,
+                      width: "100%",
+                      height: 2,
+                      backgroundColor: "#8D6E63",
+                      transform: "scaleX(0)",
+                      transformOrigin: "left center",
+                      transition: "transform 0.2s ease-in-out",
+                    },
+                    "&:hover::before": {
+                      transform: "scaleX(1)",
+                    },
                   },
-                  "&:hover::before": {
-                    transform: "scaleX(1)",
-                  },
-                }}
+                  pathName === "/" + (page === "shop" ? "" : page)
+                    ? {
+                        "&::after": {
+                          content: '""',
+                          position: "absolute",
+                          bottom: 0,
+                          left: 0,
+                          width: "100%",
+                          height: 2,
+                          backgroundColor: "#8D6E63",
+                          transform: "scaleX(1)",
+                        },
+                      }
+                    : null,
+                ]}
                 color="inherit"
               >
                 {page}
