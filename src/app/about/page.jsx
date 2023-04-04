@@ -4,8 +4,8 @@ import healthyFoodPicture from "../../../public/healthyFood.png";
 
 export default function About() {
   return (
-    <div className="max-w-full  my-16 space-y-16 px-8">
-      <div className="flex  justify-evenly">
+    <div className="max-w-full  my-16 space-y-16 px-24">
+      <div className="flex  justify-between flex-wrap">
         <div className="flex justify-start items-start">
           <Image
             width={600}
@@ -14,8 +14,8 @@ export default function About() {
             src={healthyFoodPicture}
           />
         </div>
-        <div className="max-w-lg space-y-8">
-          <h1>Empowering people by harnessing their likings.</h1>
+        <div className="max-w-lg space-y-8 ">
+          <h1>Empowering people by harnessing their senses.</h1>
           <p>
             At our company, we are passionate about providing delicious and
             nutritious food recipes to our customers. Our team of experienced
@@ -32,7 +32,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="flex justify-start pl-24">
+      <div className="flex justify-start">
         <div className="max-w-lg space-y-8">
           <h1>
             We believe every human is a creator with the birthright to make
