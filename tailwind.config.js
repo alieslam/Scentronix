@@ -5,9 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    backgroundColor: {
-      'cream': '#FCDE9C',
-    },
   },
   plugins: [],
   darkMode: 'class',
