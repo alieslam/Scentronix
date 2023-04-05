@@ -1,11 +1,16 @@
-import RecipesNavBar from "@/components/RecipesNavBar";
+import ResponsiveAppBar from "@/components/AppBar";
+import RecipesSubBar from "@/components/RecipesSubBar";
 import React from "react";
 
 export default function Recipes() {
   return (
     <>
-      <RecipesNavBar />
-      <div>Recipes</div>
+        <ResponsiveAppBar
+          appBarStyle={{ position: "sticky", elevation: 0, sx: {  backgroundColor: '#FD5757' } }}
+        >
+          <RecipesSubBar />
+        </ResponsiveAppBar>
+        <div>Recipe</div>
     </>
   );
 }
