@@ -1,59 +1,69 @@
 [
     {
+        "uid": "1",
         "blogName": "10 Delicious and Healthy Breakfast Ideas",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
         "blogText": "Starting your day off with a healthy breakfast can set you up for success. Here are 10 delicious and nutritious breakfast ideas to try...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "datetime": "2022-03-01T09:00:00Z"
     },
     {
+        "uid": "2",
         "blogName": "The Benefits of Eating a Plant-Based Diet",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FTop-10-foods-to-try-in-Mexico-c560a97.jpeg?alt=media&token=09808d00-3168-4ffb-9331-529b5cbd488e",
         "blogText": "Eating a plant-based diet has been shown to have numerous health benefits, including reducing the risk of heart disease and certain types of cancer...",
         "datetime": "2022-02-28T14:30:00Z"
     },
     {
+        "uid": "3",
         "blogName": "5 Easy and Healthy Lunch Ideas",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FUSDA_Food_Pyramid.gif?alt=media&token=579c7d30-163d-4649-ad1f-4f8ee4e15149",
         "blogText": "Packing a healthy lunch doesn't have to be difficult. Here are 5 easy and nutritious lunch ideas to take to work or school...",
         "datetime": "2022-02-25T10:15:00Z"
     },
     {
+        "uid": "4",
         "blogName": "The Top 10 Superfoods for Optimal Health",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
         "blogText": "Adding superfoods to your diet can help improve your overall health and well-being. Here are the top 10 superfoods to try...",
         "datetime": "2022-02-20T16:45:00Z"
     },
     {
+        "uid": "5",
         "blogName": "The Best Healthy Snacks for On-the-Go",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fflat-lay-batch-cooking-composition_23-2148765597.avif?alt=media&token=768e9ab0-5d55-4aee-b0d9-8c4e2b574e1f",
         "blogText": "When you're on the go, it can be tough to find healthy snack options. Here are some nutritious snacks that are easy to take with you...",
         "datetime": "2022-01-05T11:00:00Z"
     },
     {
+        "uid": "6",
         "blogName": "How to Meal Prep for a Healthy Week",
         "thumbnail": "https://example.com/images/meal-prep.jpg",
         "blogText": "Meal prepping can help you save time and eat healthier throughout the week. Here's how to meal prep like a pro...",
         "datetime": "2021-12-28T09:30:00Z"
     },
     {
+        "uid": "7",
         "blogName": "The Top 5 Healthy Dessert Recipes",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fflat-lay-batch-cooking-composition_23-2148765597.avif?alt=media&token=768e9ab0-5d55-4aee-b0d9-8c4e2b574e1f",
         "blogText": "Just because you're eating healthy doesn't mean you have to give up dessert. Here are 5 delicious and nutritious dessert recipes to try...",
         "datetime": "2021-12-15T13:20:00Z"
     },
     {
+        "uid": "8",
         "blogName": "10 Healthy and Flavorful Vegetarian Recipes",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
         "blogText": "Vegetarian meals can be both healthy and delicious. Here are 10 flavorful vegetarian recipes to try...",
         "datetime": "2021-11-28T17:00:00Z"
     },
     {
+        "uid": "9",
         "blogName": "The Benefits of Drinking Green Tea for Health",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FVariety-fruits-vegetables.webp?alt=media&token=8aacb1de-9c1c-4fd6-bc66-1025e1868cd9",
         "blogText": "Green tea is packed with antioxidants and has been shown to have numerous health benefits, including improving brain function and reducing the risk of certain types of cancer...",
         "datetime": "2021-11-15T10:45:00Z"
     },
     {
+        "uid": "10",
         "blogName": "How to Make Healthy Eating a Lifestyle",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FVariety-fruits-vegetables.webp?alt=media&token=8aacb1de-9c1c-4fd6-bc66-1025e1868cd9",
         "blogText": "Healthy eating isn't just a short-term fix - it's a lifestyle. Here are some tips to help make healthy eating a sustainable part of your life...",
