@@ -16,7 +16,7 @@ export default async function Blog() {
   const data = await getBlogPosts();
 
   return (
-    <div className="px-24 pt-16">
+    <div className="sm:px-24 sm:pt-16">
       {data.map((blg) => {
         return <BlogCard key={blg.blogName} blogData={blg} />;
       })}

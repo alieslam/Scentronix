@@ -5,54 +5,26 @@ import CustomTypography from "./CustomTypography";
 import Image from "next/image";
 import Link from "next/link";
 
-const styles = {
-  card: {
-    display: "flex",
-    marginBottom: 16,
-    borderRadius: 0,
-    // boxShadow:
-    //   "0px 8px 10px -5px rgba(0,0,0,0.2), 0px 16px 24px 2px rgba(0,0,0,0.14), 0px 6px 30px 5px rgba(0,0,0,0.12)",
-    minHeight: 400,
-    maxHeight: 600,
-    background: "transparent",
-    flexWrap: "wrap",
-  },
-  media: {
-    objectFit: "contain",
-  },
-  content: {
-    flex: "1 0",
-    minHeight: 300,
-    maxHeight: 300,
-  },
-};
-
 export default function BlogCard({ blogData }) {
   return (
     <Link href={`/blog/${blogData.uid}`}>
-      <Card style={styles.card} elevation={0}>
-        {/* Switched from CardMedia to Image since Image handles the responsiveness */}
-        <div className="flex justify-start items-start">
-          <Image
-            width={400}
-            height={400}
-            alt={""}
-            src={blogData.thumbnail}
-            style={styles.media}
-            onError={(event) => event.target.removeAttribute("src")}
-          />
-        </div>
-        <CardContent style={styles.content}>
-          <CustomTypography variant="h5" component="h2">
-            {blogData.blogName}
-          </CustomTypography>
-          <CustomTypography
-            variant="body2"
-            color="textSecondary"
-            noWrap={false}
-          >
+      <Card
+        className="flex flex-wrap sm:max-w-full lg:h-80 mb-4"
+        elevation={0}
+      >
+        <Image
+          width={1024}
+          height={768}
+          alt={""}
+          src={blogData.thumbnail}
+          className="sm:max-w-full md:object-cover md:object-center lg:max-w-sm lg:max-h-full"
+          onError={(event) => event.target.removeAttribute("src")}
+        />
+        <CardContent className="flex-1">
+          <h3>{blogData.blogName}</h3>
+          <p className="hidden sm:block max-h-48 md:max-h-36">
             {blogData.blogText}
-          </CustomTypography>
+          </p>
         </CardContent>
       </Card>
     </Link>
