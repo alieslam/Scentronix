@@ -1,0 +1,43 @@
+
+.about-container{
+
+  display: flex;
+
+  .about-image{
+    padding: 20px;
+    padding-top: 10px;
+    width: 50%;
+  }
+  .about-desc{
+    padding: 30px;
+    padding-top: 10px;
+    width: 50%;
+  }
+  
+  h1{
+    margin-bottom: 20px;
+  }
+}
+
+.about-sub{
+  width: 100%;
+  padding: 30px;
+
+  h1{
+    margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .about-container{
+
+    display: block;
+
+    div{
+
+      width: 100% !important;
+    }
+  }
+}

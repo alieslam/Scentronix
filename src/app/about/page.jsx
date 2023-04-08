@@ -1,20 +1,22 @@
 import Image from "next/image";
 import React from "react";
 import healthyFoodPicture from "../../../public/healthyFood.png";
+import "./about.scss";
 
 export default function About() {
   return (
-    <div className="max-w-full  my-16 space-y-16 px-24">
-      <div className="flex  justify-between flex-wrap">
-        <div className="flex justify-start items-start">
+    <div>
+      <div className="flex  xl:flex-nowrap flex-wrap">
+        <div className="lg:px-20 pt-10 sm:max-w-full ">
           <Image
-            width={600}
-            height={600}
+            width={1024}
+            height={768}
             alt="This is a food for pic"
             src={healthyFoodPicture}
+            className="lg:max-w-3xl"
           />
         </div>
-        <div className="max-w-lg space-y-8 ">
+        <div className="px:10 pt-10 sm:max-w-full px-10">
           <h1>Empowering people by harnessing their senses.</h1>
           <p>
             At our company, we are passionate about providing delicious and
@@ -27,13 +29,13 @@ export default function About() {
             easy to follow and come with step-by-step instructions and
             nutritional information to help our customers make informed choices.
             We believe that good food should not only taste good but also make
-            you feel good, and that's what we strive to achieve with every
+            you feel good, and that is what we strive to achieve with every
             recipe we create.
           </p>
         </div>
       </div>
-      <div className="flex justify-start">
-        <div className="max-w-lg space-y-8">
+      <div className="md:max-w-4xl xl:px-20 px-10 mt-20">
+        <div>
           <h1>
             We believe every human is a creator with the birthright to make
             choices freely
