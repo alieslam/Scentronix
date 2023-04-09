@@ -1,6 +1,7 @@
 import CustomTypography from "@/components/CustomTypography";
 import Image from "next/image";
 import React from "react";
+import { notFound } from "next/navigation";
 
 const BlogDetailsStatus = {
   OK: "ok",
@@ -28,6 +29,11 @@ async function getBlogDetails(blogId) {
     throw new Error("Failed to fetch data");
   }
   return blogDetails;
+}
+
+export async function generateMetadata({ params }) {
+  const blog = await getBlogDetails(params.id);
+  return { title: blog.blogName, description: blog.blogText.substring(0,10)}
 }
 
 // TODO: The following function logic should be moved to utility or services directory where it's logic will help 
@@ -63,6 +69,11 @@ export default async function BlogDetails(props) {
   const { params } = props;
 
   const blogDetails = await getBlogDetails(params.id);
+
+  if(blogDetails.status !== BlogDetailsStatus.OK)
+  {
+    notFound();
+  }
 
   return (
     <div className="flex flex-col max-w-full  my-16 justify-center items-center">
