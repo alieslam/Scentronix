@@ -14,7 +14,7 @@ export default function ShopItemCard({ shopItem }) {
             src={shopItem.image}
             width={500}
             height={500}
-            className="object-cover h-60 rounded-sm"
+            className="object-cover h-44 sm:h-60 rounded-sm"
             placeholder="blur"
             blurDataURL="/spinner.svg"
             alt="image is not available"
