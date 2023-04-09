@@ -6,7 +6,19 @@
     "stock": 12,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FUSDA_Food_Pyramid.gif?alt=media&token=579c7d30-163d-4649-ad1f-4f8ee4e15149",
     "price": 20,
-    "ratings": 4.5
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Carrot Cake",
@@ -15,7 +27,19 @@
     "stock": 8,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
     "price": 18,
-    "ratings": 4.2
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Blueberry Muffin",
@@ -24,7 +48,19 @@
     "stock": 20,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
     "price": 4,
-    "ratings": 4.8
+    "ratings": 4.8,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Croissant",
@@ -33,7 +69,19 @@
     "stock": 15,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
     "price": 3,
-    "ratings": 4.7
+    "ratings": 4.7,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Bagel",
@@ -42,7 +90,19 @@
     "stock": 18,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Cinnamon Roll",
@@ -51,7 +111,19 @@
     "stock": 10,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Apple Pie",
@@ -60,7 +132,19 @@
     "stock": 7,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FTop-10-foods-to-try-in-Mexico-c560a97.jpeg?alt=media&token=09808d00-3168-4ffb-9331-529b5cbd488e",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Banana Bread",
@@ -69,7 +153,19 @@
     "stock": 13,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FUSDA_Food_Pyramid.gif?alt=media&token=579c7d30-163d-4649-ad1f-4f8ee4e15149",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Eclair",
@@ -78,7 +174,19 @@
     "stock": 9,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Lemon Tart",
@@ -87,7 +195,19 @@
     "stock": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Scone",
@@ -96,7 +216,19 @@
     "stock": 16,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "name": "Red Velvet Cupcake",
@@ -105,6 +237,18 @@
     "stock": 11,
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
     "price": 2,
-    "ratings": 4.3
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "name": "Eric",
+        "reviewText": "This product exceeded my expectations.",
+        "rating": 5
+      },
+      {
+        "name": "Linda",
+        "reviewText": "Very happy with my purchase.",
+        "rating": 4.5
+      }
+    ]
   }
 ]
