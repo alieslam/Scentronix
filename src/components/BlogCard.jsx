@@ -9,7 +9,7 @@ export default function BlogCard({ blogData }) {
   return (
     <Link href={`/blog/${blogData.uid}`}>
       <Card
-        className="flex flex-wrap sm:max-w-full lg:h-80 mb-4"
+        className="flex flex-wrap sm:max-w-full lg:h-80 mb-4  bg-white bg-opacity-50"
         elevation={0}
       >
         <Image
