@@ -18,8 +18,7 @@ const pages = ["categories", "resources"];
 export default function RecipesSubBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const searchParams = useSearchParams();
-  const recipeNavParam = searchParams.get('recipeNavParam');
-
+  const recipeNavParam = searchParams.get("recipeNavParam");
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -27,63 +26,68 @@ export default function RecipesSubBar() {
     setAnchorElNav(null);
   };
   return (
-      <Container maxWidth="xs">
-        <Toolbar disableGutters sx={{ justifyContent: 'center', alignItems: 'center'}}>
-          <Box
-            sx={{
-              flexShrink: 1,
-              display: { xs: "inline-flex"},
-            }}
-          >
-            {pages.map((page) => (
-              <Button
-                key={page}
-                href={`/recipes/?recipeNavParam=${page}`}
-                onClick={handleCloseNavMenu}
-                sx={[
-                  {
-                    mx: 2,
-                    display: "block",
-                    fontSize: 14,
-                    position: "relative",
-                    "&::before": {
-                      content: '""',
-                      position: "absolute",
-                      bottom: 0,
-                      left: 0,
-                      width: "100%",
-                      height: 2,
-                      backgroundColor: "#f5eed4",
-                      transform: "scaleX(0)",
-                      transformOrigin: "left center",
-                      transition: "transform 0.2s ease-in-out",
-                    },
-                    "&:hover::before": {
-                      transform: "scaleX(1)",
-                    },
+    <div className="bg-white max-w-full">
+      <Toolbar
+        sx={{
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Box
+          sx={{
+            flexShrink: 1,
+            display: { xs: "inline-flex" },
+          }}
+        >
+          {pages.map((page) => (
+            <Button
+              key={page}
+              href={`/recipes/?recipeNavParam=${page}`}
+              onClick={handleCloseNavMenu}
+              sx={[
+                {
+                  mx: 2,
+                  display: "block",
+                  fontSize: 14,
+                  position: "relative",
+                  "&::before": {
+                    content: '""',
+                    position: "absolute",
+                    bottom: 0,
+                    left: 0,
+                    width: "100%",
+                    height: 2,
+                    backgroundColor: "#8d6e63",
+                    transform: "scaleX(0)",
+                    transformOrigin: "left center",
+                    transition: "transform 0.2s ease-in-out",
                   },
-                  recipeNavParam ===  page
-                    ? {
-                        "&::after": {
-                          content: '""',
-                          position: "absolute",
-                          bottom: 0,
-                          left: 0,
-                          width: "100%",
-                          height: 2,
-                          backgroundColor: "#f5eed4",
-                          transform: "scaleX(1)",
-                        },
-                      }
-                    : null,
-                ]}
-                color="primary"
-              >
-                {page}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
-      </Container>
+                  "&:hover::before": {
+                    transform: "scaleX(1)",
+                  },
+                },
+                recipeNavParam === page
+                  ? {
+                      "&::after": {
+                        content: '""',
+                        position: "absolute",
+                        bottom: 0,
+                        left: 0,
+                        width: "100%",
+                        height: 2,
+                        backgroundColor: "#8d6e63",
+                        transform: "scaleX(1)",
+                      },
+                    }
+                  : null,
+              ]}
+              color="secondary"
+            >
+              {page}
+            </Button>
+          ))}
+        </Box>
+      </Toolbar>
+    </div>
   );
 }
