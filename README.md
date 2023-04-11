@@ -70,6 +70,7 @@ This will start the development server and you should be able to access the appl
 Here are some of the features that we plan to add to this application:
 
 - [ ] User authentication
+- [ ] Convert to typescript
 - [ ] Add a backend API
 - [ ] Add support for internationalization
 - [ ] Improve accessibility
