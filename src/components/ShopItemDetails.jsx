@@ -43,7 +43,7 @@ export default function ShopItemDetails({ item }) {
               color="textSecondary"
               component="h2"
             >
-              {item.price.toFixed(2)} €
+              {item.price && item.price.toFixed(2)} €
             </CustomTypography>
           </div>
           <div className="flex w-1/3 my-8 justify-center self-end">

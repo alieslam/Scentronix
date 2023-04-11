@@ -5,7 +5,7 @@ export default function Reviews(props) {
   const { className, reviews } = props;
   return (
     <>
-      {reviews.length ? (
+      {reviews && reviews.length ? (
         <>
           {reviews.map((review, index) => {
             return <ReviewCard key={review.name + index} review={review} />;

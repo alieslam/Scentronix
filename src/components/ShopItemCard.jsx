@@ -28,7 +28,7 @@ export default function ShopItemCard({ shopItem }) {
            {shopItem.description}
           </CustomTypography>
           <CustomTypography className="text-right" variant="h2" color="textSecondary" component="h2">
-           {shopItem.price.toFixed(2)} €
+           {shopItem.price && shopItem.price.toFixed(2)} €
           </CustomTypography>
         </CardContent>
       </div>
