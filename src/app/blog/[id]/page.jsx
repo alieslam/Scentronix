@@ -19,15 +19,15 @@ const BlogPostTemplate = {
 };
 
 async function getBlogDetails(blogId) {
-  const res = await require("../../../../public/data.json"); // TODO: replace this dummy call with a regular fetching query
-  const blogDetails = checkBlogDetailsData({
-    ...res.find((blg) => blg.uid === blogId),
-    status: BlogDetailsStatus.MISSING_DATA,
-  });
-  res.ok = true; // TODO: remove this line as it is just added for passing the response status check
+  const res = await fetch("http://localhost:3000/data.json"); // TODO: replace this dummy call with a regular fetching query
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
+  const data = await res.json();
+  const blogDetails = checkBlogDetailsData({
+    ...data.find((blg) => blg.uid === blogId),
+    status: BlogDetailsStatus.MISSING_DATA,
+  });
   return blogDetails;
 }
 
