@@ -1,0 +1,132 @@
+[
+  {
+    "key": "cakes",
+    "recipes": [
+      {
+        "name": "Chocolate Cake",
+        "cookingTime": "1 hour",
+        "servings": "8-10",
+        "ingredients": [
+          "flour",
+          "sugar",
+          "cocoa powder",
+          "eggs",
+          "milk",
+          "baking powder",
+          "vanilla extract",
+          "vegetable oil"
+        ],
+        "cookingDescription": "Preheat the oven to 350°F. Mix dry ingredients in a bowl, then mix wet ingredients in another. Mix both together and pour into a greased cake pan. Bake for 30-35 minutes. Let it cool before serving."
+      },
+      {
+        "name": "Carrot Cake",
+        "cookingTime": "1 hour 30 minutes",
+        "servings": "12-16",
+        "ingredients": [
+          "flour",
+          "sugar",
+          "carrots",
+          "walnuts",
+          "eggs",
+          "baking powder",
+          "cinnamon",
+          "vegetable oil"
+        ],
+        "cookingDescription": "Preheat the oven to 350°F. Mix dry ingredients in a bowl, then mix wet ingredients in another. Mix both together and pour into a greased cake pan. Bake for 50-60 minutes. Let it cool before serving."
+      }
+    ],
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2FLemon-layer-cake-d2a2df0.jpg?alt=media&token=8e9d755d-d334-4657-b95d-32581bf1a6c2"
+  },
+  {
+    "key": "bake",
+    "recipes": [
+      {
+        "name": "Lasagna",
+        "cookingTime": "1 hour 30 minutes",
+        "servings": "6-8",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "garlic",
+          "onion",
+          "olive oil"
+        ],
+        "cookingDescription": "Preheat the oven to 375°F. Cook the lasagna noodles according to the package instructions. In a pan, cook the ground beef, garlic, and onion. Add tomato sauce and let it simmer. Mix ricotta cheese with parmesan cheese. Assemble the lasagna in layers of noodles, sauce, and cheese. Bake for 30-35 minutes. Let it cool before serving."
+      },
+      {
+        "name": "Quiche",
+        "cookingTime": "1 hour",
+        "servings": "6-8",
+        "ingredients": [
+          "pie crust",
+          "eggs",
+          "milk",
+          "cheese",
+          "ham",
+          "spinach",
+          "onion",
+          "butter"
+        ],
+        "cookingDescription": "Preheat the oven to 375°F. Cook the onion and spinach in butter until soft. Beat eggs and milk in a bowl. Add cheese, ham, and the spinach mixture. Pour into the pie crust. Bake for 40-45 minutes. Let it cool before serving."
+      }
+    ],
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2FPanaderia.jpg?alt=media&token=0cbece00-b61b-4fdc-922b-d1e9bab33d15"
+  },
+  {
+    "key": "italian pasta",
+    "recipes": [
+      {
+        "name": "Spaghetti Carbonara",
+        "cookingTime": "30 minutes",
+        "servings": "4-6",
+        "ingredients": [
+          "spaghetti",
+          "pancetta",
+          "eggs",
+          "parmesan cheese",
+          "garlic",
+          "olive oil",
+          "black pepper"
+        ],
+        "cookingDescription": "Cook the spaghetti according to the package instructions. Cook the pancetta and garlic in olive oil. Beat eggs and parmesan cheese in a bowl. Mix the spaghetti with the pancetta and garlic. Add the egg mixture and black pepper. Serve immediately."
+      },
+      {
+        "name": "Pesto Pasta",
+        "cookingTime": "20 minutes",
+        "servings": "4-6",
+        "ingredients": [
+          "pasta",
+          "basil leaves",
+          "pine nuts",
+          "garlic",
+          "parmesan cheese",
+          "olive oil",
+          "salt"
+        ],
+        "cookingDescription": "Cook the pasta according to the package instructions. Blend basil leaves, pine nuts, garlic, and parmesan cheese in a food processor. Slowly pour in olive oil while blending. Add salt to taste. Mix the pesto with the cooked pasta. Serve immediately."
+      },
+      {
+        "name": "Linguine with Clams",
+        "cookingTime": "30 minutes",
+        "servings": "4-6",
+        "ingredients": [
+          "linguine",
+          "clams",
+          "garlic",
+          "olive oil",
+          "white wine",
+          "butter",
+          "parsley",
+          "lemon juice",
+          "red pepper flakes"
+        ],
+        "cookingDescription": "Cook the linguine according to the package instructions. Cook the clams, garlic, and olive oil in a pan. Add white wine and butter. Let it simmer. Add cooked linguine and mix. Add parsley, lemon juice, and red pepper flakes. Serve immediately."
+      }
+    ],
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Fclassic-italian-pasta-salad-recipe-4-of-6.jpg?alt=media&token=d86a213a-2a8f-44e6-83b4-ef18dd48609d"
+  }
+]
