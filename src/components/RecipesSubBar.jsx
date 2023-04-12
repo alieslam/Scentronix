@@ -1,30 +1,26 @@
 "use client";
-import React from "react";
-
+import React, { useCallback, useEffect, useState } from "react";
 import Button from "@mui/material/Button";
-import MenuItem from "@mui/material/MenuItem";
-import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
-
-import { useSearchParams } from "next/navigation";
-
-const pages = ["categories", "resources"];
+import { usePathname, useSearchParams } from "next/navigation";
 
 export default function RecipesSubBar() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [barSelection, setBarSelection] = useState("categories");
+  const [pages] = useState(["categories", "resources"]);
   const searchParams = useSearchParams();
   const recipeNavParam = searchParams.get("recipeNavParam");
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
+  const pathname = usePathname();
+  // Get a new searchParams string by merging the current
+  // searchParams with a provided key/value pair
+  const createQueryString = useCallback(
+    (name, value) => {
+      const params = new URLSearchParams(searchParams);
+      params.set(name, value);
+      return params.toString();
+    },
+    [searchParams]
+  );
+
   return (
     <div className="bg-white max-w-full">
       <Toolbar
@@ -33,17 +29,15 @@ export default function RecipesSubBar() {
           alignItems: "center",
         }}
       >
-        <Box
-          sx={{
-            flexShrink: 1,
-            display: { xs: "inline-flex" },
-          }}
-        >
+        <div className="flex flex-shrink">
           {pages.map((page) => (
             <Button
+              name={page}
               key={page}
-              href={`/recipes/?recipeNavParam=${page}`}
-              onClick={handleCloseNavMenu}
+              href={`${pathname.substring(0, pathname.indexOf("/recipes") + 1)}recipes/?${createQueryString("recipeNavParam", page)}`}
+              onClick={(event) => {
+                setBarSelection(event.currentTarget.name);
+              }}
               sx={[
                 {
                   mx: 2,
@@ -66,7 +60,8 @@ export default function RecipesSubBar() {
                     transform: "scaleX(1)",
                   },
                 },
-                recipeNavParam === page
+                (recipeNavParam && recipeNavParam === page) ||
+                (!recipeNavParam && barSelection === page)
                   ? {
                       "&::after": {
                         content: '""',
@@ -86,7 +81,7 @@ export default function RecipesSubBar() {
               {page}
             </Button>
           ))}
-        </Box>
+        </div>
       </Toolbar>
     </div>
   );
