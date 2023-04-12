@@ -79,7 +79,7 @@ export default function MainAppBarItems() {
           <MenuItem
             key={page}
             component="a"
-            href={`/${page === "shop" ? "" : page}`+`${page === "recipes" ? '?recipeNavParam=categories':''}`}
+            href={`/${page === "shop" ? "" : page}`}
             onClick={handleCloseNavMenu}
           >
             <Typography textAlign="center">{page}</Typography>
