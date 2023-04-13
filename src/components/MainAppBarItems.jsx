@@ -110,7 +110,7 @@ export default function MainAppBarItems() {
       {pages.map((page) => (
         <Button
           key={page}
-          href={`/${page === "shop" ? "" : page}`+`${page === "recipes" ? '?recipeNavParam=categories':''}`}
+          href={`/${page === "shop" ? "" : page}`}
           onClick={handleCloseNavMenu}
           sx={[
             {
