@@ -20,7 +20,6 @@ async function getRecipe(category, recipeName) {
 
 export default async function RecipesDetails(props) {
   const { params } = props;
-  console.log(params);
   const recipe = await getRecipe(params.catId, params.recipesId);
   return (
     <>
