@@ -14,8 +14,9 @@ Here are some points that have been handled inside the project:
 
 - **SEO**: Meta-tags are being generated dependant on the type of page and what content it holds importantly to support search engine optimization. For example *Shop* and *Blog* pages are important to have the meta-tags generated.
 
-- **Sitemap**: To support more reachability to the website's content we can also add a crone job in the backend to create our sitemap file so it can be reachable by google bots. here's a sample to do so 
-```
+- **Sitemap**: To support more reachability to the website's content we can also add a crone job in the backend to create our sitemap file so it can be reachable by google bots. here's a sample to do so
+
+```javascript
 const cron = require('node-cron');
 const fs = require('fs');
 const path = require('path');
@@ -76,3 +77,4 @@ Here are some of the features that we plan to add to this application:
 - [ ] Improve accessibility
 - [ ] Implement automated testing
 - [ ] Modularize Image component with skeleton placeholder
+- [ ] Add not found for each leaf pages
