@@ -1,9 +1,12 @@
 [
   {
-    "key": "cakes",
+    "key": "C001",
+    "name": "cakes",
     "recipes": [
       {
+        "uid": "R001",
         "name": "Chocolate Cake",
+        "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Feasy_chocolate_cake_31070_16x9.jpg?alt=media&token=5be8c7fd-c4ed-4ad6-83da-3ef33bf4980a",
         "cookingTime": "1 hour",
         "servings": "8-10",
         "ingredients": [
@@ -19,7 +22,9 @@
         "cookingDescription": "Preheat the oven to 350°F. Mix dry ingredients in a bowl, then mix wet ingredients in another. Mix both together and pour into a greased cake pan. Bake for 30-35 minutes. Let it cool before serving."
       },
       {
+        "uid": "R002",
         "name": "Carrot Cake",
+        "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Fdownload%20(1).jpg?alt=media&token=da269647-7a24-456b-86c3-fc0dd5f67f2d",
         "cookingTime": "1 hour 30 minutes",
         "servings": "12-16",
         "ingredients": [
@@ -38,10 +43,13 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2FLemon-layer-cake-d2a2df0.jpg?alt=media&token=8e9d755d-d334-4657-b95d-32581bf1a6c2"
   },
   {
-    "key": "bake",
+    "key": "C002",
+    "name": "bake",
     "recipes": [
       {
+        "uid": "A001",
         "name": "Lasagna",
+        "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Fnpa_LASAGNA_H_CORRECTED.jpg?alt=media&token=37ff30f1-5aa6-4f8b-9637-e0db9baf0e94",
         "cookingTime": "1 hour 30 minutes",
         "servings": "6-8",
         "ingredients": [
@@ -58,9 +66,11 @@
         "cookingDescription": "Preheat the oven to 375°F. Cook the lasagna noodles according to the package instructions. In a pan, cook the ground beef, garlic, and onion. Add tomato sauce and let it simmer. Mix ricotta cheese with parmesan cheese. Assemble the lasagna in layers of noodles, sauce, and cheese. Bake for 30-35 minutes. Let it cool before serving."
       },
       {
+        "uid": "A002",
         "name": "Quiche",
         "cookingTime": "1 hour",
         "servings": "6-8",
+        "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Fquiche.jpg?alt=media&token=7c5f3555-ea5a-4820-9026-1b0c0dbb24a1",
         "ingredients": [
           "pie crust",
           "eggs",
@@ -77,10 +87,13 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2FPanaderia.jpg?alt=media&token=0cbece00-b61b-4fdc-922b-d1e9bab33d15"
   },
   {
-    "key": "italian pasta",
+    "key": "B001",
+    "name": "italian pasta",
     "recipes": [
       {
+        "uid": "Q001",
         "name": "Spaghetti Carbonara",
+        "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Fdownload%20(2).jpg?alt=media&token=473e4f71-7708-4b13-a774-854bd1ddbc25",
         "cookingTime": "30 minutes",
         "servings": "4-6",
         "ingredients": [
@@ -95,7 +108,9 @@
         "cookingDescription": "Cook the spaghetti according to the package instructions. Cook the pancetta and garlic in olive oil. Beat eggs and parmesan cheese in a bowl. Mix the spaghetti with the pancetta and garlic. Add the egg mixture and black pepper. Serve immediately."
       },
       {
+        "uid": "Q002",
         "name": "Pesto Pasta",
+        "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Fdownload%20(3).jpg?alt=media&token=5328a975-2d3c-432e-8943-a912717584b7",
         "cookingTime": "20 minutes",
         "servings": "4-6",
         "ingredients": [
@@ -110,7 +125,9 @@
         "cookingDescription": "Cook the pasta according to the package instructions. Blend basil leaves, pine nuts, garlic, and parmesan cheese in a food processor. Slowly pour in olive oil while blending. Add salt to taste. Mix the pesto with the cooked pasta. Serve immediately."
       },
       {
+        "uid": "Q003",
         "name": "Linguine with Clams",
+        "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2Fdownload%20(4).jpg?alt=media&token=24cb3bda-5b57-4a91-bf90-66d57c65635a",
         "cookingTime": "30 minutes",
         "servings": "4-6",
         "ingredients": [
