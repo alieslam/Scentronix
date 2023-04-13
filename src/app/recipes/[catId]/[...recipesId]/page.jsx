@@ -19,6 +19,14 @@ async function getRecipe(category, recipeName) {
   return item.recipes.find((itm) => itm.uid === recipeName);
 }
 
+export async function generateMetadata({ params }) {
+  const recipe = await getRecipe(
+    params.catId,
+    params.recipesId[params.recipesId.length - 1]
+  );
+  return { title: recipe.name, description: recipe.name };
+}
+
 export default async function RecipesDetails(props) {
   const { params } = props;
 
