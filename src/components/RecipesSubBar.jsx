@@ -34,7 +34,7 @@ export default function RecipesSubBar() {
             <Button
               name={page}
               key={page}
-              href={`${pathname.substring(0, pathname.indexOf("/recipes") + 1)}recipes/?${createQueryString("recipeNavParam", page)}`}
+              href={page === "categories" ? '/recipes': `${pathname.substring(0, pathname.indexOf("/recipes") + 1)}recipes/?${createQueryString("recipeNavParam", page)}`}
               onClick={(event) => {
                 setBarSelection(event.currentTarget.name);
               }}
