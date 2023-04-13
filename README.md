@@ -78,3 +78,4 @@ Here are some of the features that we plan to add to this application:
 - [ ] Implement automated testing
 - [ ] Modularize Image component with skeleton placeholder
 - [ ] Add not found for each leaf pages
+- [ ] Revisit the recipes folder structure to support catch-all segments for categories
