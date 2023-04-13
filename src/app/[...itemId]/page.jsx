@@ -16,13 +16,12 @@ async function getItemDetails(itemId) {
 }
 
 export async function generateMetadata({ params }) {
-  const product = await getItemDetails(params.itemId);
+  const product = await getItemDetails(params.itemId[params.itemId.length - 1]);
   return { title: product.name, description: product.name };
 }
 
 export default async function ShopItem(props) {
   const { params } = props;
-  console.log(params);
   const shopItem = await getItemDetails(params.itemId[params.itemId.length - 1]);
   return <ShopItemDetails item={shopItem} />;
 }
