@@ -8,7 +8,7 @@ import { CardContent } from "@mui/material";
 
 export default function ShopItemCard({ shopItem }) {
   return (
-    <Link href={`/${shopItem.uid}`}>
+    <Link href={`/${encodeURIComponent(shopItem.name)}/${shopItem.uid}`}>
       <div className="rounded-md flex flex-row md:flex-col cursor-pointer md:max-w-xs max-w-full w-full bg-white bg-opacity-50 bg-blur-sm backdrop-filter backdrop-blur-sm">
         <div className="w-1/3 md:w-full">
           <Image
