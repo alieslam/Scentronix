@@ -3,6 +3,7 @@ import CustomTypography from "@/components/CustomTypography";
 import Image from "next/image";
 import { BiTimeFive } from "react-icons/bi";
 import { CiForkAndKnife } from "react-icons/ci";
+import { notFound } from "next/navigation";
 
 async function getRecipe(category, recipeName) {
   const res = await fetch("http://localhost:3000/recipes.json", {
@@ -20,8 +21,14 @@ async function getRecipe(category, recipeName) {
 
 export default async function RecipesDetails(props) {
   const { params } = props;
-  
-  const recipe = await getRecipe(params.catId, params.recipesId[params.recipesId.length - 1 ]);
+
+  const recipe = await getRecipe(
+    params.catId,
+    params.recipesId[params.recipesId.length - 1]
+  );
+  if (!recipe) {
+    notFound();
+  }
   return (
     <>
       <div className="flex px-8 pt-28 space-x-4 flex-col-reverse lg:flex-row">

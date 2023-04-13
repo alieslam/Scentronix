@@ -32,11 +32,11 @@ async function getBlogDetails(blogId) {
 }
 
 export async function generateMetadata({ params }) {
-  const blog = await getBlogDetails(params.id);
-  return { title: blog.blogName, description: blog.blogText.substring(0,10)}
+  const blog = await getBlogDetails(params.id[params.id.length - 1]);
+  return { title: blog.blogName, description: blog.blogText.substring(0, 10) };
 }
 
-// TODO: The following function logic should be moved to utility or services directory where it's logic will help 
+// TODO: The following function logic should be moved to utility or services directory where it's logic will help
 // for other data objects
 function checkBlogDetailsData(blogDetails) {
   if (blogDetails && Object.keys(blogDetails).length) {
@@ -67,11 +67,10 @@ function checkBlogDetailsData(blogDetails) {
 
 export default async function BlogDetails(props) {
   const { params } = props;
+  console.log(params.id[params.id.length - 1]);
+  const blogDetails = await getBlogDetails(params.id[params.id.length - 1]);
 
-  const blogDetails = await getBlogDetails(params.id);
-
-  if(blogDetails.status !== BlogDetailsStatus.OK)
-  {
+  if (blogDetails.status !== BlogDetailsStatus.OK) {
     notFound();
   }
 
