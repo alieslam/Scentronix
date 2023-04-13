@@ -1,6 +1,6 @@
 [
   {
-    "key": "C001",
+    "uid": "C001",
     "name": "cakes",
     "recipes": [
       {
@@ -43,7 +43,7 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2FLemon-layer-cake-d2a2df0.jpg?alt=media&token=8e9d755d-d334-4657-b95d-32581bf1a6c2"
   },
   {
-    "key": "C002",
+    "uid": "C002",
     "name": "bake",
     "recipes": [
       {
@@ -87,7 +87,7 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/050MdvMkOn029v21Sy3W%2FPanaderia.jpg?alt=media&token=0cbece00-b61b-4fdc-922b-d1e9bab33d15"
   },
   {
-    "key": "B001",
+    "uid": "B001",
     "name": "italian pasta",
     "recipes": [
       {

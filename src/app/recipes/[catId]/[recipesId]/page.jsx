@@ -13,17 +13,15 @@ async function getRecipe(category, recipeName) {
   }
   const data = await res.json();
   const item = {
-    ...data.find((itm) => itm.name === category),
+    ...data.find((itm) => itm.uid === category),
   };
-  return item.recipes.find((itm) => itm.name === recipeName);
+  return item.recipes.find((itm) => itm.uid === recipeName);
 }
 
 export default async function RecipesDetails(props) {
   const { params } = props;
-  const recipe = await getRecipe(
-    decodeURI(params.catId),
-    decodeURI(params.recpiesId)
-  );
+  console.log(params);
+  const recipe = await getRecipe(params.catId, params.recipesId);
   return (
     <>
       <div className="flex px-8 pt-28 space-x-4 flex-col-reverse lg:flex-row">
