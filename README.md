@@ -1,4 +1,4 @@
-# Project Name: Material UI and Next.js 13
+# Scentronix: The web app for AI perfumery
 
 This project is built using Material UI and Next.js 13 as a starter.
 
