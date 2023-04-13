@@ -82,3 +82,4 @@ Here are some of the features that we plan to add to this application:
 - [ ] Organize component directory
 - [ ] Fix recipes sub bar on small devices
 - [ ] Switch app bar to drawer on small devices
+- [ ] Decouple all material ui components
