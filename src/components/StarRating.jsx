@@ -1,6 +1,5 @@
-import React from 'react';
-import { Rating } from '@mui/material';
-
+import React from "react";
+import { Rating } from "@mui/material";
 
 export default function StarRating({ value }) {
   return (

@@ -15,14 +15,11 @@ async function getItemDetails(itemId) {
 
 export async function generateMetadata({ params }) {
   const product = await getItemDetails(params.itemId);
-  return { title: product.name, description: product.name }
+  return { title: product.name, description: product.name };
 }
 
-export default async  function ShopItem(props) {
-  const {params} = props;
-  const shopItem =await  getItemDetails(params.itemId);
-  return (
-   <ShopItemDetails item={shopItem}/>
-  );
+export default async function ShopItem(props) {
+  const { params } = props;
+  const shopItem = await getItemDetails(params.itemId);
+  return <ShopItemDetails item={shopItem} />;
 }
-

@@ -22,13 +22,25 @@ export default function ShopItemCard({ shopItem }) {
           ></Image>
         </div>
         <CardContent className="p-4 w-2/3 md:w-full">
-          <CustomTypography className="font-bold" variant="h3" component="h3">{shopItem.name}</CustomTypography>
-          <StarRating value={shopItem.ratings}/>
-          <CustomTypography className="text-gray-700 text-base h-30 leading-relaxed py-2 overflow-hidden flex-shrink line-clamp-2 text-ellipsis" variant="body2" color="textSecondary" component="p">
-           {shopItem.description}
+          <CustomTypography className="font-bold" variant="h3" component="h3">
+            {shopItem.name}
           </CustomTypography>
-          <CustomTypography className="text-right" variant="h2" color="textSecondary" component="h2">
-           {shopItem.price && shopItem.price.toFixed(2)} €
+          <StarRating value={shopItem.ratings} />
+          <CustomTypography
+            className="text-gray-700 text-base h-30 leading-relaxed py-2 overflow-hidden flex-shrink line-clamp-2 text-ellipsis"
+            variant="body2"
+            color="textSecondary"
+            component="p"
+          >
+            {shopItem.description}
+          </CustomTypography>
+          <CustomTypography
+            className="text-right"
+            variant="h2"
+            color="textSecondary"
+            component="h2"
+          >
+            {shopItem.price && shopItem.price.toFixed(2)} €
           </CustomTypography>
         </CardContent>
       </div>

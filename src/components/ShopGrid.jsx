@@ -7,9 +7,7 @@ import ShopItemCard from "./ShopItemCard";
 
 export default function ShopGrid({ items }) {
   return (
-    <div
-      className="flex max-w-full py-10"
-    >
+    <div className="flex max-w-full py-10">
       <Grid
         className="justify-center"
         container

@@ -18,7 +18,7 @@ function ResponsiveAppBar(props) {
         } h-28 transition-all duration-500 z-10`}
       >
         <AppBar {...appBarStyle}>{children}</AppBar>
-        {route.includes('recipes') && <RecipesSubBar />}
+        {route.includes("recipes") && <RecipesSubBar />}
       </div>
       {/* </HideOnScroll> */}
     </>

@@ -13,7 +13,11 @@ export default function ReviewCard(props) {
         <StarRating value={review.rating} />
       </div>
       <div className="px-8">
-        <CustomTypography variant="body2" component="p" className="text-gray-700 text-base h-30 leading-relaxed py-2">
+        <CustomTypography
+          variant="body2"
+          component="p"
+          className="text-gray-700 text-base h-30 leading-relaxed py-2"
+        >
           {review.reviewText}
         </CustomTypography>
       </div>

@@ -12,18 +12,18 @@ export default function DarkModeSwitch() {
   return (
     <>
       {currentTheme === "dark" ? (
-          <MdLightMode
-            onClick={() => {
-              setTheme("light");
-            }}
-          />
-        ) : (
-          <BsFillMoonFill
-            onClick={() => {
-              setTheme("dark");
-            }}
-          />
-        )}
+        <MdLightMode
+          onClick={() => {
+            setTheme("light");
+          }}
+        />
+      ) : (
+        <BsFillMoonFill
+          onClick={() => {
+            setTheme("dark");
+          }}
+        />
+      )}
     </>
   );
 }

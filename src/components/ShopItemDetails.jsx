@@ -63,14 +63,10 @@ export default function ShopItemDetails({ item }) {
         </div>
       </div>
       <div className="bg-white bg-opacity-50 mt-8 md:m-8 p-8 space-y-8 rounded-md">
-        <CustomTypography
-          variant="h2"
-          color="textSecondary"
-          component="h2"
-        >
+        <CustomTypography variant="h2" color="textSecondary" component="h2">
           Reviews
         </CustomTypography>
-        <Reviews reviews={item.reviews} className="px-8"/>
+        <Reviews reviews={item.reviews} className="px-8" />
       </div>
     </div>
   );

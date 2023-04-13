@@ -7,7 +7,11 @@ export default function RecipeCard(props) {
   const { item, categoryId } = props;
   return (
     <div className="rounded-sm flex flex-col cursor-pointer max-w-xs bg-white bg-opacity-70">
-      <Link href={`/recipes/${categoryId}/${encodeURIComponent(item.name)}/${item.uid}`}>
+      <Link
+        href={`/recipes/${categoryId}/${encodeURIComponent(item.name)}/${
+          item.uid
+        }`}
+      >
         <div className="w-full p-2">
           <Image
             src={item.image}
