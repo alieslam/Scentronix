@@ -20,7 +20,8 @@ async function getRecipe(category, recipeName) {
 
 export default async function RecipesDetails(props) {
   const { params } = props;
-  const recipe = await getRecipe(params.catId, params.recipesId);
+  
+  const recipe = await getRecipe(params.catId, params.recipesId[params.recipesId.length - 1 ]);
   return (
     <>
       <div className="flex px-8 pt-28 space-x-4 flex-col-reverse lg:flex-row">
