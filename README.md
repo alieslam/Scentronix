@@ -75,3 +75,4 @@ Here are some of the features that we plan to add to this application:
 - [ ] Add support for internationalization
 - [ ] Improve accessibility
 - [ ] Implement automated testing
+- [ ] Modularize Image component with skeleton placeholder
