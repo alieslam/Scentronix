@@ -19,7 +19,7 @@ export default function ShopItemDetails({ item }) {
             className="max-w-full lg:max-w-lg"
           />
         </div>
-        <div className="flex flex-col justify-between md:mr-8 px-8 pt-10 w-screen  md:whitespace-normal bg-white bg-opacity-50 mt-10 bg-opacity-30 rounded-md">
+        <div className="flex flex-col justify-between md:mr-8 px-8 pt-10 w-screen  md:whitespace-normal bg-white bg-opacity-50 mt-10 rounded-md">
           <div>
             <CustomTypography
               variant="h2"
