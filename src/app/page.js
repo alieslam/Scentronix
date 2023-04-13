@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import * as React from "react";
 import ShopGrid from "@/components/ShopGrid";
+import { notFound } from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,5 +20,8 @@ async function getShopItems() {
 
 export default async function Home() {
   const items = await getShopItems();
+  if (!items) {
+    notFound();
+  }
   return <ShopGrid items={items} />;
 }

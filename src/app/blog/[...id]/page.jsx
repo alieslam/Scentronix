@@ -67,7 +67,6 @@ function checkBlogDetailsData(blogDetails) {
 
 export default async function BlogDetails(props) {
   const { params } = props;
-  console.log(params.id[params.id.length - 1]);
   const blogDetails = await getBlogDetails(params.id[params.id.length - 1]);
 
   if (blogDetails.status !== BlogDetailsStatus.OK) {

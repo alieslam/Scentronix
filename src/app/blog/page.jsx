@@ -1,4 +1,5 @@
 import BlogCard from "@/components/BlogCard";
+import { notFound } from "next/navigation";
 import React from "react";
 
 async function getBlogPosts() {
@@ -12,7 +13,9 @@ async function getBlogPosts() {
 
 export default async function Blog() {
   const data = await getBlogPosts();
-
+  if (!data) {
+    notFound();
+  }
   return (
     <div className="sm:px-24 sm:pt-16">
       {data.map((blg) => {
