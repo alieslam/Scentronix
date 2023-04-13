@@ -12,11 +12,11 @@ export default function ShopItemDetails({ item }) {
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="px-8 pt-10 ">
           <Image
-            width={1024}
-            height={500}
+            width={1500}
+            height={1000}
             alt="This is a food for pic"
             src={item.image}
-            className="max-w-full lg:max-w-lg"
+            className="max-w-full lg:max-w-lg rounded-md"
           />
         </div>
         <div className="flex flex-col justify-between md:mr-8 px-8 pt-10 w-screen  md:whitespace-normal bg-white bg-opacity-50 mt-10 rounded-md">

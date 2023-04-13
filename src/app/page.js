@@ -6,7 +6,9 @@ import ShopGrid from "@/components/ShopGrid";
 const inter = Inter({ subsets: ["latin"] });
 
 async function getShopItems() {
-  const res = await fetch("http://localhost:3000/shopData.json"); // TODO: replace this dummy call with a regular fetching query
+  const res = await fetch("http://localhost:3000/shopData.json", {
+    cache: "no-cache",
+  }); // TODO: replace this dummy call with a regular fetching query
 
   if (!res.ok) {
     throw new Error("Failed to fetch data");

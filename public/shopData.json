@@ -4,7 +4,7 @@
     "description": "A rich, decadent chocolate cake made with premium ingredients.",
     "uid": "C001",
     "stock": 12,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FUSDA_Food_Pyramid.gif?alt=media&token=579c7d30-163d-4649-ad1f-4f8ee4e15149",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Fdownload.jpg?alt=media&token=0171fb54-a7e8-418a-8cba-0ca2026699f4",
     "price": 20,
     "ratings": 4.5,
     "reviews": [
@@ -25,7 +25,7 @@
     "description": "A classic carrot cake with a delicious cream cheese frosting.",
     "uid": "C002",
     "stock": 8,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2FCarrot-Cake-textless-threeByTwoMediumAt2X.jpg?alt=media&token=b10dc8b8-b999-41b4-9157-83b2573bc44e",
     "price": 18,
     "ratings": 4.2,
     "reviews": [
@@ -46,7 +46,7 @@
     "description": "A fluffy muffin filled with plump, juicy blueberries.",
     "uid": "M001",
     "stock": 20,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Fblueberry-muffins-fb-ig-7-scaled.webp?alt=media&token=ec208342-1abc-4cb7-8b58-47149fc699ef",
     "price": 4,
     "ratings": 4.8,
     "reviews": [
@@ -67,7 +67,7 @@
     "description": "A flaky, buttery croissant perfect for breakfast or a snack.",
     "uid": "C003",
     "stock": 15,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Fcroissant-sandwich-l_s.jpg?alt=media&token=5f4f1b43-d16b-4ff2-adca-c9a8eb680657",
     "price": 3,
     "ratings": 4.7,
     "reviews": [
@@ -88,7 +88,7 @@
     "description": "A chewy, delicious bagel that's great with cream cheese or butter.",
     "uid": "B001",
     "stock": 18,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Fbagel.jpg?alt=media&token=25ea2916-5a35-439d-b1cb-9937a4aa951b",
     "price": 2,
     "ratings": 4.3,
     "reviews": [
@@ -109,7 +109,7 @@
     "description": "A warm, gooey cinnamon roll topped with creamy icing.",
     "uid": "R001",
     "stock": 10,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fbigstock-diet-brain-Food-For-Though-81817028.jpeg?alt=media&token=3351627d-8815-4bba-8657-af2cbd189a59",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Ffluffy-cinnamon-rolls-18.jpg?alt=media&token=56d9783a-028f-4801-900f-bdbb2f389bac",
     "price": 2,
     "ratings": 4.3,
     "reviews": [
@@ -130,7 +130,7 @@
     "description": "A classic apple pie with a flaky, buttery crust and sweet, cinnamon-spiced filling.",
     "uid": "P001",
     "stock": 7,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FTop-10-foods-to-try-in-Mexico-c560a97.jpeg?alt=media&token=09808d00-3168-4ffb-9331-529b5cbd488e",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Fapplepie.jpg?alt=media&token=84c55ba1-6e96-460b-b851-92afe1779c0b",
     "price": 2,
     "ratings": 4.3,
     "reviews": [
@@ -151,7 +151,7 @@
     "description": "A moist and flavorful banana bread that's great for breakfast or a snack.",
     "uid": "B002",
     "stock": 13,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2FUSDA_Food_Pyramid.gif?alt=media&token=579c7d30-163d-4649-ad1f-4f8ee4e15149",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Fhomemade-banana-bread.jpg?alt=media&token=34f98d30-f5cd-4e60-8ac2-054771976f82",
     "price": 2,
     "ratings": 4.3,
     "reviews": [
@@ -172,7 +172,7 @@
     "description": "A delicious eclair filled with creamy vanilla custard and topped with chocolate glaze.",
     "uid": "E001",
     "stock": 9,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2FHomemade-Eclair.jpg?alt=media&token=0fba5a61-694e-4fc4-a8fa-a02c06a1c210",
     "price": 2,
     "ratings": 4.3,
     "reviews": [
@@ -193,7 +193,7 @@
     "description": "A tangy lemon tart with a buttery crust and delicate meringue topping.",
     "uid": "T001",
     "stock": 6,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2FLemonTart.jpg?alt=media&token=a473aa66-42e6-4d7c-b337-5fe7ae14924a",
     "price": 2,
     "ratings": 4.3,
     "reviews": [
@@ -214,7 +214,7 @@
     "description": "A crumbly, buttery scone that's perfect with jam and cream.",
     "uid": "S001",
     "stock": 16,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2FBIB_Scones_1125.png?alt=media&token=5c484675-6478-4df5-8154-35511118bb23",
     "price": 2,
     "ratings": 4.3,
     "reviews": [
@@ -235,7 +235,7 @@
     "description": "A rich and decadent red velvet cupcake with creamy frosting.",
     "uid": "C004",
     "stock": 11,
-    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Random%20Images%2Fchorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg?alt=media&token=52fc6e5c-5fc9-4c07-90ec-a0c9c40c2665",
+    "image": "https://firebasestorage.googleapis.com/v0/b/welnes-app.appspot.com/o/Food%2Fvegan-red-velvet-cupcakes-1.jpg?alt=media&token=01ccf493-8c41-4676-a993-710d12871ebc",
     "price": 2,
     "ratings": 4.3,
     "reviews": [

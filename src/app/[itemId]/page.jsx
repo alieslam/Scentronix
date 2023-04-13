@@ -2,7 +2,9 @@ import ShopItemDetails from "@/components/ShopItemDetails";
 import React from "react";
 
 async function getItemDetails(itemId) {
-  const res = await fetch("http://localhost:3000/shopData.json"); // TODO: replace this dummy call with a regular fetching query
+  const res = await fetch("http://localhost:3000/shopData.json", {
+    cache: "no-cache",
+  }); // TODO: replace this dummy call with a regular fetching query
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
